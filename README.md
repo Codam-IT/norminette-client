@@ -38,3 +38,19 @@ bundle
 sudo ln -s ~/.norminette/norminette.rb /usr/local/bin/norminette
 ```
 
+
+### FAQ
+
+**Symbolic link already exist, what can i do ?**
+
+failed to create symbolic link '/usr/local/bin/norminette': File exists **
+
+```bash
+sudo unlink /usr/local/bin/norminette
+sudo ln -s ~/.norminette/norminette.rb /usr/local/bin/norminette
+```
+
+
+
+
+
